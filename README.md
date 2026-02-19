@@ -1,15 +1,25 @@
 # Security Headers Analyzer
 
-This is a simple Python-based tool that checks important HTTP security headers of a website.
+> Version 2.0.0  
+> A modular Python-based web security analysis tool.
 
-I built this project while learning web security and understanding how security headers protect web applications.
+Security Headers Analyzer is a lightweight command-line tool designed to inspect HTTP security headers, evaluate SSL certificate details, and generate a basic security score for a target web application.
 
-## What This Tool Does
+This project was developed as part of hands-on learning in web security and secure application assessment.
 
-- Sends a request to the given URL
-- Checks for common security headers
-- Displays which headers are present and which are missing
-- Shows basic server information
+---
+
+## Features
+
+> HTTP Security Header Analysis  
+> SSL Certificate Inspection  
+> Response Time Measurement  
+> HTTP Status Code Detection  
+> Security Score Calculation  
+> JSON Report Export  
+> Modular Code Architecture  
+
+---
 
 ## Security Headers Checked
 
@@ -19,37 +29,6 @@ I built this project while learning web security and understanding how security 
 - Strict-Transport-Security
 - X-Content-Type-Options
 
-## Requirements
-
-Python 3.x
-
-Install required package:
-
-pip install -r requirements.txt
-
-## How to Run
-
-python scanner.py
-
-Then enter the target URL (example: https://example.com)
-
-## Example Output
-
-[+] X-Frame-Options Found  
-[-] Content-Security-Policy Missing  
-
-## Purpose
-
-This tool is created for learning and educational purposes only.  
-Use it only on websites you own or have permission to test.
-
-## Future Improvements
-
-- Add CLI arguments support
-- Generate JSON report
-- Add SSL certificate analysis
-- Add colored terminal output
-
 ---
 
-Author: scambaiterkshitij
+## Project Structure
